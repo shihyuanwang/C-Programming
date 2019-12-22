@@ -1,8 +1,5 @@
 # Employee Earnings Report
 
-## Modularity, Looping, Selection, File and Interactive Input, Concatenation
-
-
 There is an owner of a small but growing IT network consulting firm, consisting of several staff members, some of which are employees and others are contractors. The company is always working on several client projects, each of which might have anywhere from 1 to 15 (or more) team members.
 
 The owner is developing a weekly Staff Member Earnings Report Generator application. The user will interactively enter information for each staff member, including their first name and last name, hourly wage, and number of hours worked. The program should create a report as this information is entered. The report will be stored in a sequential disk file in text format.
