@@ -1,4 +1,4 @@
-// Assignment 4 - Shih-Yuan Wang
+// Shih-Yuan Wang
 
 // C Libraries
 
@@ -92,12 +92,12 @@ int clear() {
 
 void header (void){
 
-   fprintf(reportfile, "NetworkHaus Information Technology, LLC\n");
+   fprintf(reportfile, "NetworkHausÂ Information Technology, LLC\n");
    fprintf(reportfile, "Weekly Staff Earnings Report\n");
    fprintf(reportfile, "\n");
    fprintf(reportfile, "Project: %s\n", project);
    fprintf(reportfile, "\n");
-   fprintf(reportfile, "Staff Member                     Reg Hrs        Overtime Hrs       Gross\n");
+   fprintf(reportfile, "Staff MemberÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â RegÂ HrsÂ Â Â Â Â Â Â  OvertimeÂ HrsÂ Â Â Â Â Â  Gross\n");
    fprintf(reportfile, "------------------------------------------------------------------------\n");
 
 }
@@ -161,7 +161,7 @@ void process (void) {
       strcat(fullname2, ", ");       // This adds ", " to the end of fullname2
       strcat(fullname2, firstname);   // This adds firstname to the end of fullname2
 
-      fprintf(reportfile,"%-31s%4.1f ($%5.2f)   %4.1f ($%5.2f)    $%7.2f\n",
+      fprintf(reportfile,"%-31s%4.1f ($%5.2f)Â Â  %4.1f ($%5.2f)Â Â Â  $%7.2f\n",
               fullname2, reghr, regwage, overhr, overwage, grosswage);             // report body detail
 
    } while (again=='Y' || again=='y');
