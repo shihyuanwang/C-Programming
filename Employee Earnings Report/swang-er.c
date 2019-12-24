@@ -1,4 +1,5 @@
-// Shih-Yuan Wang
+// Shih-Yuan Wang - Employee Earnings Report
+
 
 // C Libraries
 
