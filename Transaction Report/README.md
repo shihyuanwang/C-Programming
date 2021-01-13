@@ -4,11 +4,16 @@
 
 Develop a program to produce a transaction report. This program is to be written so that input is from a file (batch input), and the output is text that is printed to a disk file. The program is for the owner of a small business that deals with transporting goods. He wants to utilize the computer for the keeping of records, plus doing a bit of analysis. He is maintaining an operating account and would like to figure out the net balance of money after purchasing goods and selling goods, plus keeping track of various incidental charges. Someone will be entering each of the transactions into a textfile. Write a C program to read this file and produce a report. This program should read a transaction type that it one of the following:
 
-TAKE IN           Cost of a product brought into inventory (negative number)
-SHIP OUT          Price of a product sold and removed from inventory (positive number)
-FEE               Miscellaneous fee paid (negative number)
-TARIFF            Tariff charged by receiving country (negative number)
-HANDLING          Charge to the customer for handling (positive number)
+TAKE IN:           Cost of a product brought into inventory (negative number)
+
+SHIP OUT:          Price of a product sold and removed from inventory (positive number)
+
+FEE:               Miscellaneous fee paid (negative number)
+
+TARIFF:            Tariff charged by receiving country (negative number)
+
+HANDLING:          Charge to the customer for handling (positive number)
+
 
 This string is followed by some amount of money (dollars and cents) that belongs to that transaction. The number may be positive or negative; that is determined by the type of transaction to which it is attached, so there is no need to determine the sign of the number using selection. The program keeps track of the running total (net) of these figures. The operating account always starts with a balance of $1000.00 (might change every great once in a while).
 
