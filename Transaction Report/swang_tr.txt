@@ -1,0 +1,21 @@
+Turtle Bay Traders
+4800 Palawan Way
+Mandalay Beach, CA 99499
+
+Operating Account Starting Balance:  1000.00
+
+Transaction       Amount                 Net
+-----------       ------                 ---
+TAKE IN          2325.19            -1325.19
+SHIP OUT         4735.41             3410.22
+TARIFF            117.88             3292.34
+TAKE IN          5100.25            -1807.91
+FEE               510.00            -2317.91
+SHIP OUT         7432.44             5114.53
+HANDLING          250.00             5364.53
+TAKE IN           500.34             4864.19
+TAKE IN          3333.44             1530.75
+FEE               150.00             1380.75
+
+Operating Account Ending Balance:    1380.75
+There were 10 transactions processed.
