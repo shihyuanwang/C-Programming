@@ -2,7 +2,7 @@
 
 ### Use of Looping, Modularity, Expressions, File Input, File Output
 
-Develop a program to produce a transaction report. This program is to be written so that input is from a file (batch input), and the output is text that is printed to a disk file. The program is for the owner of a small business that deals with transporting goods. He wants to utilize the computer for the keeping of records, plus doing a bit of analysis. He is maintaining an operating account and would like to figure out the net balance of money after purchasing goods and selling goods, plus keeping track of various incidental charges. Someone will be entering each of the transactions into a textfile. Write a C program to read this file and produce a report. This program should read a transaction type that it one of the following:
+Develop a program to produce a transaction report. This program is to be written so that input is from a file (batch input), and the output is text that is printed to a disk file. The program is designed for the owner of a small business that deals with transporting goods. He wants to utilize the computer for the keeping of records, plus doing a bit of analysis. He is maintaining an operating account and would like to figure out the net balance of money after purchasing goods and selling goods, plus keeping track of various incidental charges. Someone will be entering each of the transactions into a textfile. Write a C program to read this file and produce a report. This program should read a transaction type that it one of the following:
 
 TAKE IN:           Cost of a product brought into inventory (negative number)
 
